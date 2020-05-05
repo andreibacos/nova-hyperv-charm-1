@@ -38,7 +38,7 @@ options:
         https://example.com/installer.msi#md5=<hash>
   enable-cluster-driver:
     type: boolean
-    default: True
+    default: False
     description: |
       Enables the Hyper-V compute driver for clustering. This requires at least two Hyper-V compute
       joined to a cluster.
